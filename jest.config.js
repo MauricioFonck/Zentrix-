@@ -1,13 +1,13 @@
 export default {
   testEnvironment: "node",
   moduleNameMapper: {
-    '^@evershop/postgres-query-builder$': '<rootDir>/packages/postgres-query-builder/dist/index.js',
-    '^@evershop/postgres-query-builder/(.*)$': '<rootDir>/packages/postgres-query-builder/dist/$1',
+    '^@zentrix/postgres-query-builder$': '<rootDir>/packages/postgres-query-builder/dist/index.js',
+    '^@zentrix/postgres-query-builder/(.*)$': '<rootDir>/packages/postgres-query-builder/dist/$1',
     '^(\\.{1,2}/.*)\\.js$': '$1'
   },
   transformIgnorePatterns: [
-    "/node_modules/(?!(@evershop)/)"
+    "/node_modules/(?!(@zentrix)/)"
   ],
   testMatch: ["**/dist/**/tests/**/unit/**/*.test.[jt]s"],
-  modulePathIgnorePatterns: ["<rootDir>/packages/evershop/src/"]
+  modulePathIgnorePatterns: ["<rootDir>/packages/zentrix/src/"]
 };

@@ -1,0 +1,36 @@
+{
+  "name": "create-zentrix-app",
+  "version": "2.3.0",
+  "description": "Create Zentrix App",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "createZentrixApp.js",
+    "sample"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create-zentrix-app": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zentrixcommerce/zentrix.git"
+  },
+  "author": "The Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zentrixcommerce/zentrix/issues"
+  },
+  "homepage": "https://github.com/zentrixcommerce/zentrix#readme",
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "commander": "^9.4.1",
+    "cross-spawn": "^7.0.3",
+    "fs-extra": "^10.0.0",
+    "semver": "^7.6.3",
+    "validate-npm-package-name": "^4.0.0"
+  }
+}

@@ -2,7 +2,11 @@
   "compilerOptions": {
     "module": "NodeNext",
     "target": "ES2018",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
@@ -18,9 +22,15 @@
     "allowArbitraryExtensions": true,
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["packages/evershop/src/components/*"],
-      "@evershop/postgres-query-builder": ["packages/postgres-query-builder/src/index.ts"],
-      "@evershop/postgres-query-builder/*": ["packages/postgres-query-builder/src/*"]
+      "@components/*": [
+        "packages/zentrix/src/components/*"
+      ],
+      "@zentrix/postgres-query-builder": [
+        "packages/postgres-query-builder/src/index.ts"
+      ],
+      "@zentrix/postgres-query-builder/*": [
+        "packages/postgres-query-builder/src/*"
+      ]
     }
   },
 }
