@@ -27,12 +27,17 @@ export default {
         get(context, 'currentUrl')
       ),
       favicon: async () => {
-        // Check if a file named favicon.ico exists in the public folder
+        // Check for favicon.png first, then fallback to favicon.ico
         try {
-          await access(path.resolve(CONSTANTS.PUBLICPATH, 'favicon.ico'));
-          return getBaseUrl() + '/assets/favicon.ico';
-        } catch (error) {
-          return null;
+          await access(path.resolve(CONSTANTS.PUBLICPATH, 'favicon.png'));
+          return getBaseUrl() + '/assets/favicon.png';
+        } catch {
+          try {
+            await access(path.resolve(CONSTANTS.PUBLICPATH, 'favicon.ico'));
+            return getBaseUrl() + '/assets/favicon.ico';
+          } catch {
+            return null;
+          }
         }
       }
     })

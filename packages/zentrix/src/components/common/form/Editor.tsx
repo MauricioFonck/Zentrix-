@@ -31,7 +31,7 @@ async function loadEditorJS(): Promise<any> {
 }
 
 async function loadEditorJSImage(): Promise<any> {
-  const { default: ImageTool } = await import('@Zentrix/editorjs-image');
+  const { default: ImageTool } = await import('@zentrix/editorjs-image');
   return ImageTool;
 }
 

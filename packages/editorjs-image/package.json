@@ -1,0 +1,22 @@
+{
+  "name": "@zentrix/editorjs-image",
+  "version": "1.1.0",
+  "description": "Image Tool for Zentrix Editor",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/image.umd.js",
+  "module": "./dist/image.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/image.mjs",
+      "require": "./dist/image.umd.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "dependencies": {
+    "@codexteam/icons": "^0.3.0"
+  }
+}
