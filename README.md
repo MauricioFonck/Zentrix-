@@ -1,107 +1,124 @@
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p align="center">
-<img width="60" height="68" alt="Zentrix Logo" src="https://raw.githubusercontent.com/zentrixcommerce/zentrix/dev/.github/images/logo-green.png"/>
-</p>
-<p align="center">
-  <h1 align="center">Zentrix</h1>
-</p>
-<h4 align="center">
-    <a href="https://zentrix.io/docs/development/getting-started/introduction">Documentation</a> |
-    <a href="https://demo.zentrix.io/">Demo</a>
-</h4>
-
-<p align="center">
-  <img src="https://github.com/zentrixcommerce/zentrix/actions/workflows/build_test.yml/badge.svg" alt="Github Action"> <a href="https://twitter.com/zentrixjs"><img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/zentrixjs?style=social"></a> <a href="https://discord.gg/GSzt7dt7RM"><img src="https://img.shields.io/discord/757179260417867879?label=discord" alt="Discord"></a> <a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License"></a>
+  <img src=".github/images/banner-new.png" width="100%" alt="Zentrix Hero Banner" />
 </p>
 
 <p align="center">
-<img alt="Zentrix" width="950" src="https://raw.githubusercontent.com/zentrixcommerce/zentrix/dev/.github/images/banner.png"/>
+  <img src=".github/images/logo-new.png" width="80" height="auto" alt="Zentrix Logo" />
 </p>
 
-## Introduction
+<h1 align="center">Zentrix</h1>
 
-Zentrix is a modern, TypeScript-first eCommerce platform built with GraphQL and React. Designed for developers, it offers essential commerce features in a modular, fully customizable architecture—perfect for building tailored shopping experiences with confidence and speed.
+<p align="center">
+  <strong>The Future of High-Performance, Modular eCommerce</strong><br />
+  Built with TypeScript, React, and GraphQL for developers who demand excellence.
+</p>
 
-## Installation Using Docker
+<p align="center">
+  <a href="https://zentrix.io/docs/development/getting-started/introduction"><strong>Documentation</strong></a> |
+  <a href="https://demo.zentrix.io/"><strong>Live Demo</strong></a> |
+  <a href="https://discord.gg/GSzt7dt7RM"><strong>Community</strong></a>
+</p>
 
+<p align="center">
+  <img src="https://github.com/zentrixcommerce/zentrix/actions/workflows/build_test.yml/badge.svg" alt="Build Status" />
+  <a href="https://twitter.com/zentrixjs"><img src="https://img.shields.io/twitter/follow/zentrixjs?style=social" alt="Twitter Follow" /></a>
+  <a href="https://discord.gg/GSzt7dt7RM"><img src="https://img.shields.io/discord/757179260417867879?label=discord&logo=discord&logoColor=white&color=7289da" alt="Discord" /></a>
+  <a href="https://opensource.org/licenses/GPL-3.0"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" /></a>
+</p>
 
-You can get started with Zentrix in minutes by using the Docker image. The Docker image is a great way to get started with Zentrix without having to worry about installing dependencies or configuring your environment.
+---
+
+## ⚡ What is Zentrix?
+
+**Zentrix** is a modern, TypeScript-first eCommerce platform designed for speed, flexibility, and developer happiness. It leverages a modular architecture that allows you to swap themes, extend logic, and scale with confidence.
+
+- 🚀 **Performance First**: Optimized for core web vitals and rapid response times.
+- 🧩 **Modular Architecture**: Fully customizable via extensions and themes.
+- 🛡️ **TypeScript-First**: Type-safe development across the entire stack.
+- 🕸️ **Headless & GraphQL**: Decoupled frontend with a powerful GraphQL API.
+
+---
+
+## 🏗️ Core Features
+
+<table width="100%">
+  <tr>
+    <td width="50%" align="center">
+      <img src=".github/images/feature-modular.png" width="60" alt="Modular Icon" /><br />
+      <strong>Fully Modular</strong><br />
+      Hook into any part of the lifecycle with a robust plugin system.
+    </td>
+    <td width="50%" align="center">
+      <img src=".github/images/feature-fast.png" width="60" alt="Fast Icon" /><br />
+      <strong>Blazing Fast</strong><br />
+      Built on a stack that prioritizes speed and low latency.
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🖼️ Experience Zentrix
+
+### Storefront Preview
+Explore a world-class shopping experience out of the box.
+
+<p align="center">
+  <img src=".github/images/storefront-preview.png" width="90%" style="border-radius: 10px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);" alt="Storefront Preview" />
+</p>
+
+### Admin Dashboard
+Manage your store with a professional, data-driven interface.
+
+<p align="center">
+  <img src=".github/images/admin-preview.png" width="90%" style="border-radius: 10px; box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);" alt="Admin Preview" />
+</p>
+
+---
+
+## 🚀 Quick Start (Docker)
+
+Get up and running in seconds:
 
 ```bash
+# Download the compose file
 curl -sSL https://raw.githubusercontent.com/zentrixcommerce/zentrix/main/docker-compose.yml > docker-compose.yml
+
+# Start the platform
 docker compose up -d
 ```
 
-For the full installation guide, please refer to our [Installation guide](https://zentrix.io/docs/development/getting-started/installation-guide).
+> [!TIP]
+> For manual installation and detailed guides, check our [Installation Documentation](https://zentrix.io/docs/development/getting-started/installation-guide).
 
-## Documentation
+---
 
-- [Installation guide](https://zentrix.io/docs/development/getting-started/installation-guide).
+## 🎮 Explore Our Live Demos
 
-- [Extension development](https://zentrix.io/docs/development/module/create-your-first-extension).
+| Site | Link | Credentials |
+| :--- | :--- | :--- |
+| **Storefront** | [demo.zentrix.io](https://demo.zentrix.io/) | No Login Required |
+| **Admin** | [demo.zentrix.io/admin](https://demo.zentrix.io/admin) | `demo@zentrix.io` / `123456` |
 
-- [Theme development](https://zentrix.io/docs/development/theme/theme-overview).
+---
 
+## 🤝 Community & Support
 
-## Demo
-
-Explore our demo store.
-
-<p align="left">
-  <a href="https://demo.zentrix.io/admin" target="_blank">
-    <img alt="zentrix-backend-demo" height="35" alt="Zentrix Admin Demo" src="https://raw.githubusercontent.com/zentrixcommerce/zentrix/dev/.github/images/zentrix-demo-back.png"/>
-  </a>
-  <a href="https://demo.zentrix.io/" target="_blank">
-    <img alt="zentrix-store-demo" height="35" alt="Zentrix Store Demo" src="https://raw.githubusercontent.com/zentrixcommerce/zentrix/dev/.github/images/zentrix-demo-front.png"/>
-  </a>
-</p>
-<b>Demo user:</b>
-
-Email: demo@zentrix.io<br/>
-Password: 123456
-
-## Support
-
-If you like my work, feel free to:
-
-- ⭐ this repository. It helps.
-- [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)][tweet] about Zentrix. Thank you!
-
-[tweet]: https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fzentrixcommerce%2Fzentrix&text=Awesome%20React%20Ecommerce%20Project&hashtags=react,ecommerce,expressjs,graphql
-
-## Contributing
-
-Zentrix is an open-source project. We are committed to a fully transparent development process and appreciate highly any contributions. Whether you are helping us fix bugs, proposing new features, improving our documentation or spreading the word - we would love to have you as part of the Zentrix community.
-
-### Ask a question about Zentrix
-
-You can ask questions, and participate in discussions about Zentrix-related topics in the Zentrix Discord channel.
-
-<a href="https://discord.gg/GSzt7dt7RM"><img src="https://raw.githubusercontent.com/zentrixcommerce/zentrix/dev/.github/images/discord_banner_github.svg" /></a>
-
-### Create a bug report
-
-If you see an error message or run into an issue, please [create bug report](https://github.com/zentrixcommerce/zentrix/issues/new). This effort is valued and it will help all Zentrix users.
-
-
-### Submit a feature request
-
-If you have an idea, or you're missing a capability that would make development easier and more robust, please [Submit feature request](https://github.com/zentrixcommerce/zentrix/issues/new).
-
-If a similar feature request already exists, don't forget to leave a "+1".
-If you add some more information such as your thoughts and vision about the feature, your comments will be embraced warmly :)
-
-
-Please refer to our [Contribution Guidelines](./CONTRIBUTING.md) and [Code of Conduct](./CODE_OF_CONDUCT.md).
+- ⭐ **Star this repository** to support our growth!
+- 🐛 **[Report a bug](https://github.com/zentrixcommerce/zentrix/issues/new)** or request a feature.
+- 💬 Join the **[Discord Community](https://discord.gg/GSzt7dt7RM)** for real-time help.
 
 ## 🚀 The Future of Zentrix
 
-Zentrix is seeing rapid organic growth and strong adoption from the developer community. We are now scaling our operations and building **Zentrix Cloud**.
+We are actively building **Zentrix Cloud**. If you're an investor or partner interested in modern eCommerce, we’d love to connect.
 
-If you are a strategic investor interested in the future of Node.js commerce and our mission to set a new standard for modern eCommerce, we’d love to share our vision and roadmap with you.
+📩 **Contact Us:** [support@zentrix.io](mailto:support@zentrix.io)
 
-📩 **Get in touch:** support@zentrix.io
+---
 
-## License
+## 📄 License
 
-[GPL-3.0 License](https://github.com/zentrixcommerce/zentrix/blob/main/LICENSE)
+Distributed under the **GPL-3.0 License**. See `LICENSE` for more information.
+
+<p align="center">Made with ❤️ for the Developer Community</p>
+
